@@ -1,0 +1,155 @@
+<html>
+
+<head>
+  <title>UI - WFA JobAids OFT - ET</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/main.css" rel="stylesheet">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="script_ui/ui_main.js"></script>
+  <script src="script_ui/ui_SideNav.js"></script>
+</head>
+
+<div class="hamburger-menu">
+  <input id="menu__toggle" type="checkbox" />
+  <label class="menu__btn" for="menu__toggle">
+    <span></span>
+  </label>
+
+  <ul class="menu__box">
+    <li id="ly0"><a class="menu__item">Home screen</a></li>
+    <li id="ly1"><a class="menu__item">Data entry</a></li>
+    <li id="lyt_init1"><a class="menu__item">INT1 Welcome video</a></li>
+    <li id="lyt_init2"><a class="menu__item">INT2 Self or husband</a></li>
+    <li id="lyt_init3"><a class="menu__item">INT3 New or returning user</a></li>
+  </ul>
+</div>
+
+<!-- LYT Home screen-->
+
+<div class="h_screen">
+  <div class="grd_left">
+    <div><img class="slide_in_blurred_top" src="images/logo1.png" alt="logo" /></div>
+    <div><img class="slide_in_blurred_bl" src="images/couple.png" alt="img1" /></div>
+  </div>
+  <div class="grd_tight"></div>
+</div>
+<!-- [END] LYT Home screen-->
+
+<!-- LYT One-->
+<div class="lyt_one">
+  <div class="grd_top_nav">
+    <div class="grd_left_top">
+      <svg class="logout_icon" width="48" height="48" viewBox="0 0 48 48" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M14 34L16.82 31.18L11.66 26L32 26V22L11.66 22L16.82 16.84L14 14L4 24L14 34ZM40 38H24V42H40C42.2 42 44 40.2 44 38L44 10C44 7.8 42.2 6 40 6H24V10H40L40 38Z"
+          fill="" />
+      </svg>
+      <label>Log out</label>
+    </div>
+    <div class="grd_right_top">
+      <div class="select_lang" tabindex="1">
+        <input class="selectopt" name="test" type="radio" id="opt1" checked>
+        <label for="opt1" class="option">English</label>
+        <input class="selectopt" name="test" type="radio" id="opt2">
+        <label for="opt2" class="option">Spanish</label>
+        <input class="selectopt" name="test" type="radio" id="opt3">
+        <label for="opt3" class="option">Portuguese</label>
+        <input class="selectopt" name="test" type="radio" id="opt4">
+        <label for="opt4" class="option">French</label>
+        <input class="selectopt" name="test" type="radio" id="opt5">
+      </div>
+    </div>
+  </div>
+  <div class="grd_cont">
+    <!-- LYT Data entry-->
+    <div class="form_d_entry">
+      
+      <div class="grd_line1">
+        <h1>We would like to know your region</h1>
+      </div>
+      <div class="grd_line2">
+        <div class="select_form" tabindex="1">
+          <input class="selectopt" name="Region" type="radio" id="r1" checked>
+          <label for="r1" class="option">Region</label>
+          <input class="selectopt" name="Region" type="radio" id="r2">
+          <label for="r2" class="option">Region ..</label>
+          <input class="selectopt" name="Region" type="radio" id="r3">
+          <label for="r3" class="option">Region ..</label>
+          <input class="selectopt" name="Region" type="radio" id="r4">
+          <label for="r4" class="option">Region ..</label>
+          <input class="selectopt" name="Region" type="radio" id="r5">
+        </div>
+
+        <div class="select_form" tabindex="1">
+          <input class="selectopt" name="Zone" type="radio" id="z1" checked>
+          <label for="z1" class="option">Zone</label>
+          <input class="selectopt" name="Zone" type="radio" id="z2">
+          <label for="z2" class="option">Zone ..</label>
+          <input class="selectopt" name="Zone" type="radio" id="z3">
+          <label for="z3" class="option">Zone ..</label>
+          <input class="selectopt" name="Zone" type="radio" id="z4">
+          <label for="z4" class="option">Zone ..</label>
+          <input class="selectopt" name="Zone" type="radio" id="z5">
+        </div>
+
+        <div class="select_form" tabindex="1">
+          <input class="selectopt" name="District" type="radio" id="d1" checked>
+          <label for="d1" class="option">District</label>
+          <input class="selectopt" name="District" type="radio" id="d2">
+          <label for="d2" class="option">District ..</label>
+          <input class="selectopt" name="District" type="radio" id="d3">
+          <label for="d3" class="option">District ..</label>
+          <input class="selectopt" name="District" type="radio" id="d4">
+          <label for="d4" class="option">District ..</label>
+          <input class="selectopt" name="District" type="radio" id="d5">
+        </div>
+
+        <div class="select_form" tabindex="1">
+          <input class="selectopt" name="Kabele" type="radio" id="k1" checked>
+          <label for="k1" class="option">Kabele</label>
+          <input class="selectopt" name="Kabele" type="radio" id="k2">
+          <label for="k2" class="option">Kabele ..</label>
+          <input class="selectopt" name="Kabele" type="radio" id="k3">
+          <label for="k3" class="option">Kabele ..</label>
+          <input class="selectopt" name="Kabele" type="radio" id="k4">
+          <label for="k4" class="option">Kabele ..</label>
+          <input class="selectopt" name="Kabele" type="radio" id="k5">
+        </div>
+
+      </div>
+      <div class="grd_line3">
+        <h2>Select your session type</h2>
+      </div>
+      <div class="grd_line4">
+
+        <button class="w_more">
+          <span class="circle" aria-hidden="true">
+            <span class="icon arrow"></span>
+          </span>
+          <span class="button-text">Individual</span>
+        </button>
+
+        <button class="w_more">
+          <span class="circle" aria-hidden="true">
+            <span class="icon arrow"></span>
+          </span>
+          <span class="button-text">Group</span>
+        </button>
+
+      </div>
+
+    </div>
+    <!-- [END] LYT Data entry-->
+
+    <!-- LYT init1-->
+    <div class="form_init1"></div>
+    <!-- [END] LYT init1-->
+  </div>
+  <div class="grd_bottom_nav"></div>
+</div>
+<!-- [END] LYT One-->
+
+</html>
