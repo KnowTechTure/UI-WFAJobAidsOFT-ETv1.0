@@ -1,3 +1,5 @@
+@import "//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
 @import 'abstracts/setting.scss',
 'abstracts/mixins.scss',
 'abstracts/ui_demo.scss';
@@ -16,8 +18,14 @@
 'base/animations/slide_out_top.scss',
 'base/animations/slide_in_bottom.scss', // out?
 'base/animations/slide_in_blurred_top.scss',
+'base/animations/slide_in_blurred_top.scss',
 'base/animations/slide_out_blurred_top.scss',
-'base/animations/slide_in_blurred_bl.scss';
+'base/animations/slide_in_blurred_bottom.scss',
+'base/animations/slide_in_blurred_left.scss',
+'base/animations/slide_in_blurred_right.scss',
+'base/animations/slide_in_blurred_bl.scss',
+'base/animations/swing_in_bottom_bck.scss',
+'base/animations/tracking_in_expand.scss';//texts
 
 *{
   box-sizing: border-box;

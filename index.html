@@ -41,16 +41,16 @@
 <div class="lyt_one">
   <div class="grd_top_nav">
     <div class="grd_left_top">
-      <svg class="logout_icon" width="48" height="48" viewBox="0 0 48 48" fill="none"
+      <svg class="logout_icon slide_in_blurred_left" width="48" height="48" viewBox="0 0 48 48" fill="none"
         xmlns="http://www.w3.org/2000/svg">
         <path
           d="M14 34L16.82 31.18L11.66 26L32 26V22L11.66 22L16.82 16.84L14 14L4 24L14 34ZM40 38H24V42H40C42.2 42 44 40.2 44 38L44 10C44 7.8 42.2 6 40 6H24V10H40L40 38Z"
           fill="" />
       </svg>
-      <label>Log out</label>
+      <label class="slide_in_blurred_left">Log out</label>
     </div>
     <div class="grd_right_top">
-      <div class="select_lang" tabindex="1">
+      <div class="select_lang slide_in_blurred_right" tabindex="1">
         <input class="selectopt" name="test" type="radio" id="opt1" checked>
         <label for="opt1" class="option">English</label>
         <input class="selectopt" name="test" type="radio" id="opt2">
@@ -64,14 +64,16 @@
     </div>
   </div>
   <div class="grd_cont">
+
     <!-- LYT Data entry-->
     <div class="form_d_entry">
-      
+
       <div class="grd_line1">
-        <h1>We would like to know your region</h1>
+        <h1 class="slide_in_blurred_top">We would like to know your region</h1>
       </div>
       <div class="grd_line2">
-        <div class="select_form" tabindex="1">
+
+        <div class="select_form slide_in_blurred_left" tabindex="1">
           <input class="selectopt" name="Region" type="radio" id="r1" checked>
           <label for="r1" class="option">Region</label>
           <input class="selectopt" name="Region" type="radio" id="r2">
@@ -83,7 +85,7 @@
           <input class="selectopt" name="Region" type="radio" id="r5">
         </div>
 
-        <div class="select_form" tabindex="1">
+        <div class="select_form slide_in_blurred_left" tabindex="1">
           <input class="selectopt" name="Zone" type="radio" id="z1" checked>
           <label for="z1" class="option">Zone</label>
           <input class="selectopt" name="Zone" type="radio" id="z2">
@@ -95,7 +97,7 @@
           <input class="selectopt" name="Zone" type="radio" id="z5">
         </div>
 
-        <div class="select_form" tabindex="1">
+        <div class="select_form slide_in_blurred_right" tabindex="1">
           <input class="selectopt" name="District" type="radio" id="d1" checked>
           <label for="d1" class="option">District</label>
           <input class="selectopt" name="District" type="radio" id="d2">
@@ -107,7 +109,7 @@
           <input class="selectopt" name="District" type="radio" id="d5">
         </div>
 
-        <div class="select_form" tabindex="1">
+        <div class="select_form slide_in_blurred_right" tabindex="1">
           <input class="selectopt" name="Kabele" type="radio" id="k1" checked>
           <label for="k1" class="option">Kabele</label>
           <input class="selectopt" name="Kabele" type="radio" id="k2">
@@ -121,34 +123,74 @@
 
       </div>
       <div class="grd_line3">
-        <h2>Select your session type</h2>
+        <h2 class="tracking_in_expand">Select your session type</h2>
       </div>
       <div class="grd_line4">
-
-        <button class="w_more">
-          <span class="circle" aria-hidden="true">
-            <span class="icon arrow"></span>
-          </span>
-          <span class="button-text">Individual</span>
-        </button>
-
-        <button class="w_more">
-          <span class="circle" aria-hidden="true">
-            <span class="icon arrow"></span>
-          </span>
-          <span class="button-text">Group</span>
-        </button>
-
+        <div id="individual" class="btn slide_in_blurred_left">Individual</div>
+        <div id="group" class="btn slide_in_blurred_right">Group</div>
       </div>
 
     </div>
     <!-- [END] LYT Data entry-->
 
-    <!-- LYT init1-->
-    <div class="form_init1"></div>
-    <!-- [END] LYT init1-->
+    <!-- LYT INT1 Welcome Video-->
+    <div class="int1">
+      <div class="grd_line1 ">
+        <h1 class="slide_in_blurred_top">Watch some family planning tips</h1>
+      </div>
+      <div class="grd_line2">
+        <div class="content_video slide_in_blurred_bottom">
+          <iframe id="c_video"
+            src="https://www.youtube.com/embed/tgbNymZ7vqY?wmode=transparent&amp;autoplay=0&amp;autohide=0"
+            frameborder="0"></iframe>
+        </div>
+      </div>
+    </div>
+    <!-- [END] LYT INT1 Welcome Video-->
+
+    <!-- LYT INT2 Self or Husband-->
+    <div class="int2">
+      <div class="grd_line1 ">
+        <h1 class="slide_in_blurred_top">Are you here by yourself?</h1>
+      </div>
+      <div class="grd_line2">
+        <h2 class="tracking_in_expand">If you are married, are you here with your husband?</h2>
+      </div>
+      <div class="grd_line3">
+        <div class="slide_in_blurred_left">
+          <img src="images/By_myself.svg" alt="by my selft">
+        </div>
+        <div class="slide_in_blurred_right">
+          <img src="images/With_my_husband.svg" alt="With my husband">
+        </div>
+      </div>
+    </div>
+    <!-- [END] INT2 Self or Husband-->
+
+    <!-- LYT INT3 New or Returning User-->
+    <!-- [END] INT3 New or Returning User-->
+
+    <!-- LYT SS1 Avatar Selectionr-->
+    <!-- [END] SS1 Avatar Selection-->
   </div>
-  <div class="grd_bottom_nav"></div>
+
+  <div class="grd_bottom_nav">
+    <div class="int1"> <!-- warning -->
+      <div class="grd_btm_left">
+        <div id="int1_back" class="btn_back slide_in_blurred_left">
+          Back
+          <i class="fa fa-arrow-left"></i>
+        </div>
+      </div>
+      <div class="grd_btm_center"></div>
+      <div class="grd_btm_right">
+        <div id="int1_next" class="btn_next slide_in_blurred_right">
+          Next
+          <i class="fa fa-arrow-right"></i>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 <!-- [END] LYT One-->
 
