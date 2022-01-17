@@ -9,10 +9,8 @@
 'components/buttons.scss';
 
 @import 'layouts/home_screen.scss',
-'layouts/lyt_one.scss',
-'layouts/INIT1.scss',
-'layouts/INIT2.scss',
-'layouts/INIT3.scss';
+'layouts/lyt_one.scss';
+@import 'base/theme_default.scss';
 
 @import 'base/animations/slide_in_top.scss',
 'base/animations/slide_out_top.scss',
